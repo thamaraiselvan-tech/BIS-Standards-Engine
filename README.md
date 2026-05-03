@@ -22,7 +22,7 @@ An AI-powered engine that maps plain-English product descriptions to the exact B
 ### 1. Clone
 ```bash
 git clone https://github.com/thamaraiselvan-tech/BIS-Standards-Engine.git
-cd bis-standards-engine
+cd BIS-Standards-Engine
 ```
 
 ### 2. Install
