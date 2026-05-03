@@ -94,11 +94,10 @@ Product Description (plain English)
     └── sample_output.json
 ```
 
-> `dataset.pdf` (SP 21) is not committed. Place it in root before running.
 
 ---
 
-## ⚙️ Optional: Claude AI Explanations
+## ⚙️ Optional: Claude AI Explanations (not recommended, api key not set - run locally)
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
