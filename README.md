@@ -31,21 +31,18 @@ pip install -r requirements.txt
 ```
 > Python 3.10+ required. No GPU. No internet at inference time.
 
-### 3. Place the dataset
-Copy `dataset.pdf` (SP 21, 2005) into the project root.
-
-### 4. Web UI
+### 3. Web UI
 ```bash
 python app.py
 # Open http://localhost:5000
 ```
 
-### 5. Inference (judge command)
+### 4. Inference (judge command)(place the hidden_private_dataset.json in the root)
 ```bash
 python inference.py --input hidden_private_dataset.json --output team_results.json
 ```
 
-### 6. Evaluate
+### 5. Evaluate
 ```bash
 python inference.py --input public_test_set.json --output data/public_results.json
 python eval_script.py --results data/public_results.json
